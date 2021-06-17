@@ -10,11 +10,11 @@
     <List>
         <Item on:SMUI:action={() => (window.location.href = '/')}>
             <Graphic class="material-icons" aria-hidden="true">inbox</Graphic>
-            <Text>main</Text>
+            <Text>Таблица</Text>
         </Item>
-        <Item on:SMUI:action={() => (window.location.href = '/#/book')}>
+        <Item on:SMUI:action={() => (window.location.href = '/#/form')}>
             <Graphic class="material-icons" aria-hidden="true">book</Graphic>
-            <Text>Book</Text>
+            <Text>Форма</Text>
         </Item>
     </List>
 </div>
